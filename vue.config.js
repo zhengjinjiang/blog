@@ -1,5 +1,8 @@
+const isProd = process.env.NODE_ENV === 'production';
+
 module.exports = {
   outputDir: 'docs',
+  publicPath: isProd ? './' : '/',
   pages: {
     index: {
       entry: 'src/pages/projects.js',
