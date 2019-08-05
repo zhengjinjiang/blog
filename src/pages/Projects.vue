@@ -84,7 +84,7 @@ export default {
     .item {
       display: inline-block;
       margin: 0 15px 26px 0;
-      max-width: 200px;
+      max-width: 250px;
       position: relative;
       font-size: 12px;
       vertical-align: top;
@@ -92,7 +92,7 @@ export default {
       .thumb {
         position: relative;
         margin-bottom: 12px;
-        width: 200px;
+        width: 250px;
         min-height: 115px;
         img {
           display: block;
