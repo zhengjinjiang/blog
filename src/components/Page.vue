@@ -3,7 +3,7 @@
     <div class="page-navi">
       <a class="logo" href="./">
         <img
-          src="http://www.zheng-jinjiang.com/wp-content/uploads/2018/12/B85DA58D5ABD8BD2D03D14705635F2E2副本-2.jpg"
+          src="http://www.zheng-jinjiang.com/wp-content/uploads/2019/08/logo.png"
         />
       </a>
       <template v-for="(m, index) in menus">
@@ -78,14 +78,14 @@ export default {
     margin-bottom: 50px;
     .logo {
       position: absolute;
-      right: 70px;
-      top: 50px;
+      right: 50px;
+      top: 55px;
       display: block;
-      margin-bottom: 20px;
+      margin-top: -20px;
       img {
         display: block;
-        height: 50px;
-        width: 50px;
+        height: 80px;
+        width: 'auto';
         border-radius: 50%;
       }
     }
