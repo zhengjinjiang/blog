@@ -110,7 +110,7 @@ export default {
   .page-footer {
     position: absolute;
     bottom: 30px;
-    left: 140px;
+    left: 100px;
     font-size: 12px;
   }
 }
