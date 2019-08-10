@@ -59,7 +59,7 @@ export default {
     margin-bottom: 35px;
   }
   .content {
-    max-width: 640px;
+    // max-width: 640px;
     hr {
       border: 0;
       border-top: 1px solid #000;

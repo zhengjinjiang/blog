@@ -69,7 +69,7 @@ export default {
 <style lang="less">
 .page {
   position: relative;
-  padding: 50px 140px;
+  padding: 50px 100px;
   box-sizing: border-box;
   min-height: 100%;
   .page-navi {
@@ -77,11 +77,12 @@ export default {
     height: 50px;
     margin-bottom: 50px;
     .logo {
-      position: absolute;
+      position: fixed;
       right: 50px;
       top: 55px;
       display: block;
       margin-top: -20px;
+      z-index: 9999;
       img {
         display: block;
         height: 80px;
